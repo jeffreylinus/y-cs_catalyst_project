@@ -6,20 +6,20 @@ const MenuBar = () => {
   return (
     <div className="menu-bar">
       <ul>
-        <a href="../index.html"> home </a>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="../index.js">Home</a></li>
+        <li><a href="../about.js">About</a></li>
+        <li><a href="../contact.js">Contact</a></li>
+
       </ul>
     </div>
   );
 };
 
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
     <div>
       <MenuBar />
-      {children}
     </div>
   );
 };

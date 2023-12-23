@@ -4,18 +4,29 @@
   padding: 10px;
 }
 
-ul {
-  list-style-type: none;
+.menu-bar ul {
+  list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
 }
 
-a {
-  margin-right: 20px;
-  cursor: pointer;
+.menu-bar li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-a:hover {
+.menu-bar li a {
+  text-decoration: none;
+  color: #fff; /* Set the color for unvisited links */
+}
+
+.menu-bar li a:hover {
   text-decoration: underline;
 }
+
+
+
+
+
+
+
